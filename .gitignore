@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/c++
-# Edit at https://www.toptal.com/developers/gitignore?templates=c++
+# Created by https://www.toptal.com/developers/gitignore/api/c++,replit
+# Edit at https://www.toptal.com/developers/gitignore?templates=c++,replit
 
 ### C++ ###
 # Prerequisites
@@ -35,6 +35,15 @@
 *.out
 *.app
 
-# End of https://www.toptal.com/developers/gitignore/api/c++
+### replit ###
+# Replit config file
+.replit
 
+# Replit Nix config file
+replit.nix
+
+# End of https://www.toptal.com/developers/gitignore/api/c++,replit
+.breakpoints
+.ccls-cache
 main
+main-debug
